@@ -53,7 +53,7 @@ function getHtmlChunk() {
                 filename: path.join(conf.root, "index.html"),
                 inject: true,
                 favicon: false,
-                chunks: ['index', 'common']
+                chunks: ['app', 'common']
             })
         } else {
             // other .html

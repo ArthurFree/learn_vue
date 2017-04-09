@@ -7,8 +7,8 @@ module.exports = {
     entry: getEntry(),
     output: {
         path: conf.dist,
-        filename: "[name],js",
-        publicPath: "./dist"
+        filename: "[name].js",
+        publicPath: "/"
     },
     module: {
         rules: [
